@@ -1,0 +1,2 @@
+[alias]
+	add-global-alias = "!~/.gitalias/add-global-alias/add-global-alias.sh"

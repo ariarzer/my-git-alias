@@ -1,0 +1,2 @@
+[includeIf "gitdir:~/"]
+	path = ~/.gitalias/add-global-alias/add-global-alias
