@@ -1,0 +1,2 @@
+[alias]
+	make-test-rep = "!~/gitalias/make-test-rep/make-test-rep.sh"

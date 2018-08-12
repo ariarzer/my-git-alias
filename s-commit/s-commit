@@ -1,0 +1,2 @@
+[alias]
+	s-commit = "!~/gitalias/s-commit/s-commit.sh"

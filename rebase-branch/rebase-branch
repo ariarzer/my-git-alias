@@ -1,0 +1,3 @@
+[alias]
+    add-global-alias = "!~/gitalias/rebase-branch/rebase-branch.sh"
+
