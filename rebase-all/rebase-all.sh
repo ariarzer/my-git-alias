@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for file in $(ls .git/refs/heads ); do
+for file in $(git branch | grep -i -v "*"); do
         if [ ${file} != master ];
             then
                 git checkout ${file};
