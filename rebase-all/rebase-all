@@ -1,0 +1,2 @@
+[alias]
+    rebase-all = "!~/.gitalias/rebase-all/rebase-all.sh"

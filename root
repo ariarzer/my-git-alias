@@ -1,2 +1,5 @@
 [includeIf "gitdir:~/"]
 	path = ~/.gitalias/add-global-alias/add-global-alias
+
+[includeIf "gitdir:~/"]
+    path = ~/.gitalias/rebase-all/rebase-all
