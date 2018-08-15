@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for file in $(git branch | grep -i -v "*"); do
+for file in $(git branch --format="%(refname:short)"); do
         if [ ${file} != master ];
             then
                 echo;
