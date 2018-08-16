@@ -12,7 +12,7 @@ for file in $(git branch --format="%(refname:short)"); do
                     then
                         git pull origin master --rebase;
                         git status;
-                        read -p "$(echo -e "Are you sure you want to do \x1b[31;1mFORCE PUSH\x1b[0m $file branch? (yes/n):")" amsure;
+                        read -p "$(echo -e "Are you sure you want to do \x1b[31;1mFORCE PUSH\x1b[0m $file branch? (yes/no):")" amsure;
                         if [ ${amsure} = yes ];
                             then
                                 git push origin ${file} --force;
@@ -24,7 +24,7 @@ for file in $(git branch --format="%(refname:short)"); do
                         git branch -D ${file};
                 fi;
             else
-            read -p "$(echo -e "Are you sure you want to do \x1b[32;1mPULL\x1b[0m $file branch? (y/n):")" amsure;
+            read -p "$(echo -e "Are you sure you want to do \x1b[32;1mPULL\x1b[0m $file branch? (yes/no):")" amsure;
                 if [ ${amsure} = yes ];
                      then
                          git pull origin master;
